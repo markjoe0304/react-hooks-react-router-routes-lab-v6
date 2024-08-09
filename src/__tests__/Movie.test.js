@@ -2,7 +2,7 @@ import "@testing-library/jest-dom";
 import { RouterProvider, createMemoryRouter} from "react-router-dom"
 import { render, screen } from "@testing-library/react";
 import routes from "../routes";
-
+import ErrorPage from "../pages/ErrorPage";
 const id = 1
 const router = createMemoryRouter(routes, {
     initialEntries: [`/movie/${id}`],
