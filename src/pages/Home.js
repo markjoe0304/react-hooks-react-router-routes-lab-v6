@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import MovieCard from "../components/MovieCard";
 import NavBar from "../components/NavBar"
-import ErrorPage from "../ErrorPage";
+import ErrorPage from "../pages/ErrorPage";
 
 
 

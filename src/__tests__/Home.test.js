@@ -2,7 +2,6 @@ import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import { RouterProvider, createMemoryRouter} from "react-router-dom";
 import routes from "../routes.js";
-import ErrorPage from "../ErrorPage";
 
 const router = createMemoryRouter(routes)
 

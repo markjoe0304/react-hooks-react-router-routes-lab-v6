@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import NavBar from "../components/NavBar";
-import ErrorPage from "../ErrorPage";
-
+import ErrorPage from "./ErrorPage";
 function Directors() {
   const [directors, setDirectors] = useState([])
 
